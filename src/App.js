@@ -1,17 +1,16 @@
 import React from 'react';
-// import './App.css';
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div>
-      <h1>My Dream Vacation Destinations!</h1>
-      <ul>
-        <li>first li</li>
-        <li>second li</li>
-        <li>third li</li>
-      </ul>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
-  );
+  )
 }
-
 export default App;
